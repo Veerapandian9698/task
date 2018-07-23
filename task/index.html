@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    
+</head>
+<body >
+
+    <section class="header-background">
+        <header>
+        <div class="header-content">
+            <div class="header-side-bar">
+                    <i class="fa menu" onclick="openNav()">&#xf0c9;</i>
+                    <img class="appsec-image" src="/assets/logo-top-left.png" alt="AppSec">
+            </div>
+            <div id="mySidenav" class="sidenav" onmouseleave="closeNav()">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="list2" href="#">About</a>
+                <a class="list2" href="#">Services</a>
+                <a class="list2" href="#">Clients</a>
+                <a class="list2" href="#">Contact</a>
+              </div>
+            <ul class="navigation">
+                <li class="list"><a onclick="initScroll('first');" href = "#first">TOOLS</a></li>
+                <li class="list"><a onclick="initScroll('second');" href = "#second">CONTACT US</a></li>
+                <li class="list"><a href = "#">LOGIN</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="background-image">
+        <div class="content clearfix">
+        <img class="letter-img" src="/assets/group-17.png">
+         <div class="title-content">
+             <img class="logo-image" src="/assets/logo.png">
+             <h1 class="app-text">APPLICATION SECURITY</h1>
+             <div class="image-content">
+             <img class="rocket" src="/assets/rocket.png">
+             <h2 class="security-text">Shifting Security <b>LEFT</b></h2>
+             </div>
+            <div>
+                    <img class="letter-img1" src="/assets/group-17.png">
+             <img class="content-image" src="/assets/group-3.png">
+             
+             </div>
+             <div class="arrow-class">
+                <i class="fa fa-angle-down arrow bounce" onclick="initScroll('second');" style="font-size:40px"></i>
+             </div>
+         </div>
+        </div>
+    </section>
+    </section>
+    <main class="main-background">
+        <div class="usable-main">
+         <section class="grid">
+             <div id="demo" class="tools-resources">
+                <!--<p class="text"></p>-->
+                
+             </div>
+             <hr class="line">
+             <div id="first" class="rectangle">
+               <ul>
+                   <!-- <li class="box">
+                       <div class="image-div">
+                            <img class="application-image" src="/assets/application-onboarding.png">
+                       </div>
+                       <div class="text-div">
+                            <p class="heading" id="headings"></p>
+                            <p class="details"></p>
+                       </div>
+                   </li>
+                   <li class="box">
+                        <div class="image-div">
+                            <img class="application-image" src="/assets/app-sec-scanning.png">
+                        </div>
+                        <div class="text-div">
+                            <p class="heading"></p>
+                            <p class="details"></p>
+                        </div>
+                    </li>
+                    <li class="box">
+                            <div class="image-div">
+                                <img class="application-image" src="/assets/asset-50-6-x.png">
+                            </div>
+                            <div class="text-div">
+                                <p class="heading"></p>
+                                <p class="details"></p>
+                            </div>
+                        </li>
+                        <li class="box">
+                                <div class="image-div">
+                                    <img class="application-image" src="/assets/hawk-eye-dashboard.png">
+                                </div>
+                                <div class="text-div">
+                                    <p class="heading"></p>
+                                    <p class="details"></p>
+                                </div>
+                            </li>
+                            <li class="box">
+                                    <div class="image-div">
+                                        <img class="application-image" src="/assets/hawk-eye-api.png">
+                                    </div>
+                                    <div class="text-div">
+                                        <p class="heading"></p>
+                                        <p class="details"></p>>
+                                    </div>
+                                </li>
+                                <li class="box">
+                                        <div class="image-div">
+                                            <img class="application-image" src="/assets/security-assist-plugin.png">
+                                        </div>
+                                        <div class="text-div">
+                                            <p class="heading"></p>
+                                            <p class="details"></p>
+                                        </div>
+                                    </li> -->
+               </ul>  
+             </div>
+         </section>
+         </div>
+    </main>
+    <footer>
+        <section id="second" class="contact-section">
+            <div class="about-us">
+                <div class="text-section">
+                <p class="contact-us">CONTACT US</p>
+                <p class="solution">Providing  security solutions that makes your life easier</p></div>
+                <div class="footer-buttons">
+                        <a href = "#" class="email">E-MAIL US</a>
+                        <img class="slack" src="/assets/slack-rgb.png"></img>
+                </div>
+            </div>
+
+        </section>
+        <section class="copywrite">
+            <div class="usable-copywrite">
+            <div class="footer-logo">
+                <img class="app-image" src="/assets/group-4.png">
+                <img class="mobile" src="/assets/tmo-black.png">
+            </div>
+            <ul class="footer-navigation">
+                    <li class="list1"><a href = "#">PRIVACY</a></li>
+                    <li class="list1"><a href = "#">BLOG</a></li>
+                    <li class="list1"><a href = "#">DOCS</a></li>
+                </ul>
+                <p class="copywrite-text">Copyright 2018. All rights reserved</p></div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/heading.js"></script>
+</body>
+</html>

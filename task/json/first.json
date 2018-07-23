@@ -1,0 +1,31 @@
+[{
+    "tag_id": "1",
+    "title": "Application Onboarding",
+    "details": "Before you can access the tools below, you will need to complete the Application Security Onboarding"
+},
+{
+    "tag_id": "2",
+    "title": "AppSec Scanning",
+    "details": "Resources to automate your SAST/DAST scanning needs."
+},
+{
+    "tag_id": "3",
+    "title": "AppSec Training",
+    "details": "See suggested security training topics and enroll in training"
+},
+{
+    "tag_id": "4",
+    "title": "HawkEye Dashboard",
+    "details": "View visual dashboard of data analytics on your applications"
+},
+{
+    "tag_id": "5",
+    "title": "HawkEye APIs",
+    "details": "Use the HawkEye to pull data for your own reporting needs."
+},
+{
+    "tag_id": "6",
+    "title": "Security Assist Plugin",
+    "details": "Lightweight IDE which detects common application vulnerabilities as you code and offers practical remediation guidance and training."
+}
+]
